@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2f3437;
+  font-size: 18px;
+  font-family: 'Fira Code';
+  color: white;
+}
+
+
+#header { 
+  top: 0;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color: purple;
+}
+
+
+.form {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  text-align: center;
+  width: 50%;
+  height: 85%;
+  background-color: black;
+  padding: 70px;
+  border: solid 1px white;
+  float: left;
+}
+
+.form h1 {
+  margin-bottom: 20px;
+}
+
+#nameProject {
+margin-top: 10px;
+width: 100%;
+height: 10%;
+font-size: 18px;
+font-family: 'Fira Code';
+border: solid 2px purple;
+}
+
+#linkProject {
+  margin-top: 10px;
+  width: 100%;
+  height: 10%;
+  font-size: 18px;
+  font-family: 'Fira Code';
+  border: solid 2px purple;
+  }
+
+#btn {
+  width: 100%;
+  height: 12%;
+  margin-top: 15px;
+  background-color: purple;
+  border: none;
+  font-size: 18px;
+  font-family: 'Fira Code';
+}
+
+#btn:hover {
+  background-color: rgb(163, 4, 163);
+}
+
+.listProjects {
+  position: absolute;
+  text-align: center;
+  padding: 70px;
+  top: 100px;
+  left:52%;
+  width: 47%;
+  height: max-content;
+  float: right;
+  border: solid 1px white;
+
+}
+
+.listProjects ul {
+  list-style-type: none;
+}
+
+.listProjects ul li {
+  font-size: 18px;
+  font-family: 'Fira Code';
+  margin-top: 10px;
+}
+
+.listProjects ul li a {
+  font-size: 18px;
+  font-family: 'Fira Code';
+  color: white;
+}
+
+a:link, a:visited {
+	text-decoration: none
+  }
+  
+a:hover {
+	text-decoration: underline; 
+	color: white
+  }
+  
+a:active {
+	text-decoration: none
+	}
